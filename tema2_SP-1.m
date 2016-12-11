@@ -1,5 +1,5 @@
 N = 50; % numarul de coeficienti
-D = 25; % durata
+D = 15; % durata
 P = 40; % perioada
 F=1/P; % frecventa 
 w0=2*pi/P; % pulsatia
@@ -50,8 +50,3 @@ ylabel('|X|');
 % ca orice semnal periodic poate fi aproximat printr-o suma infinita de sinusi si
 % cosinusi de diferite frecvente fiecare ponderat cu un anumit coeficient. Acesti coeficienti
 % reprezinta practic spectrul (amplitudinea pentru anumite frecvente).
-% Semnalul reconstruit folosind un numar finit de termeni se apropie ca
-% forma de semnalul original cu o anumita marja de eroare. Cu cat marim
-% numarul de coeficienti, aceasta marja de eroare va fi din ce in ce mai
-% mica. In plus se observa faptul ca semnalul poate fi aproximat printr-o
-% suma de sinusoide: variatiile semanlului au un caracter de sinusoida.
